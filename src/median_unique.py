@@ -11,4 +11,4 @@ with open('tweets.txt', "r") as f:
             medians.append(new_median)
 #write content of medians into your new f2.txt file here
 with open('ft2.txt','a+')as out:
-        print >> out, "%d" % medians
+        print >> out, medians
