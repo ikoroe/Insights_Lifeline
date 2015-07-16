@@ -10,5 +10,5 @@ with open('tweets.txt', "r") as f:
             new_median = sum(unique_words_per_tweet) + unique_words/len(unique_words_per_tweet) + 1
             medians.append(new_median)
 #write content of medians into your new f2.txt file here
-with open('ft2.txt','a+')as out:
+with open('ft2.txt','w+')as out:
         print >> out, medians
