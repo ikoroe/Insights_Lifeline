@@ -1,5 +1,6 @@
 # Insights_Lifeline
-Solution to cc-example
+
+###Solution to cc-example
 
 The aim of the project is to solve in my own way the challange stated in the cc-example.
 
