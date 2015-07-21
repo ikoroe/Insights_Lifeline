@@ -1,5 +1,5 @@
 #a program that calculates the total number of times each word has been tweeted.
-#maketrans module in python is used.
+#maketrans module in python 2.7.4 is used.
 from string import maketrans
 #definition of the count parameters for input text file in 'tweets'
 word_list = open("tweets.txt", "r").read().split()
